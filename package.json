@@ -1,0 +1,12 @@
+{
+  "name": "hdoc-ribbon",
+  "version": "1.0.0",
+  "description": "hdoc-ribbon is a custom HTML element I worked on as part of my #100DaysOfCode journey to learn new stuffs and re-learn many things",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "Nattaphoom Chaipreecha",
+  "license": "MIT"
+}
