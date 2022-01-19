@@ -6,11 +6,12 @@ new stuffs and re-learn many things
 ## Usage
 
 Include this script in your HTML
+
 ```html
 <script src="https://unpkg.com/hdoc-ribbon@1.0.0/index.js"></script>
 ```
 
-And start using it in your document:
+And start using `<hdoc-ribbon>` element in your document:
 
 ```html
 <!-- put the ribbon on the top right corner -->
@@ -27,3 +28,27 @@ And start using it in your document:
   href="https://github.com/attomos/100-days-of-code"
 ></hdoc-ribbon>
 ```
+
+| Attribute | Data Type | Description                                      |
+| --------- | --------- | ------------------------------------------------ |
+| data-day  | string    | The day you're on the challenge, e.g. 1-100      |
+| position  | string    | Where to put the ribbon either `left` or `right` |
+| href      | string    | The URL that points to your repo or whatever     |
+
+## Inspirations
+
+I got this idea by looking at what @narze did in his day 5 and day 6 of #100DaysOfCode challenge.  
+He created #100DaysOfCode CSS ribbon and published it to [npm](https://www.npmjs.com/package/hundred-days-of-code-css-ribbon).
+
+Please checkout his work from the links below.
+
+- https://100daysofcode-narze.vercel.app/days/5/
+- https://100daysofcode-narze.vercel.app/days/6/
+- https://github.com/narze/100-days-of-code-ribbon
+
+### Things I learned from @narze ribbon as well as creating my own
+
+1. Learn about https://unpkg.com/ which is CDN to serve files from npm packages
+2. Some CSS transforms to make the ribbon on the corner
+3. My ribbon is a bit different from @narze. I create custom HTML element, while his ribbon is CSS
+   magic (use the ribbon class and pass data to attr() function).
