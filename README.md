@@ -8,7 +8,7 @@ new stuffs and re-learn many things
 Include this script in your HTML
 
 ```html
-<script src="https://unpkg.com/hdoc-ribbon@1.0.0/index.js"></script>
+<script src="https://unpkg.com/hdoc-ribbon@1.0.1/index.js"></script>
 ```
 
 And start using `<hdoc-ribbon>` element in your document:
