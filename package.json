@@ -1,6 +1,6 @@
 {
   "name": "hdoc-ribbon",
-  "version": "1.1.1",
+  "version": "1.2.0",
   "description": "hdoc-ribbon is a custom HTML element I worked on as part of my #100DaysOfCode journey to learn new stuffs and re-learn many things",
   "main": "index.js",
   "scripts": {
