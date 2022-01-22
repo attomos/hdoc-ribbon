@@ -24,6 +24,18 @@ class Ribbon extends HTMLElement {
     shadow.appendChild(this.wrapper);
   }
 
+  static get observedAttributes() {
+    return ["position"];
+  }
+
+  attributeChangedCallback(name, oldValue, newValue) {
+    if (name === "position" && oldValue && oldValue !== newValue) {
+      const classList = this.wrapper.classList;
+      classList.remove(oldValue);
+      classList.add(newValue);
+    }
+  }
+
   connectedCallback() {
     const position = this.getAttribute("position");
     this.wrapper.classList.add(position);

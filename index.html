@@ -20,11 +20,13 @@
   </head>
   <body>
     <hdoc-ribbon
+      id="right-ribbon"
       data-day="11"
       position="right"
       href="https://github.com/attomos/100-days-of-code"
     ></hdoc-ribbon>
     <hdoc-ribbon
+      id="left-ribbon"
       data-day="100"
       position="left"
       href="https://github.com/attomos/100-days-of-code"
@@ -37,20 +39,31 @@
       tenetur?
     </h1>
 
-    <div style="display: flex">
-      <p style="margin: 0 auto; font-size: 2em; padding-top: 36px">
-        left ribbon will change style after 1 second
-      </p>
+    <div id="notice-text" style="display: flex">
+      <div style="margin: 0 auto; font-size: 2em; padding-top: 36px">
+        After 1 second, these will happen:
+        <ul>
+          <li>
+            left ribbon will change styles and move to right after 1 second
+          </li>
+          <li>right ribbon will move to left.</li>
+        </ul>
+      </div>
     </div>
 
     <script>
-      const leftRibbon = document.querySelector("hdoc-ribbon:nth-child(2)");
+      const leftRibbon = document.querySelector("#left-ribbon");
+      const rightRibbon = document.querySelector("#right-ribbon");
+      const noticeText = document.getElementById("notice-text");
       setTimeout(() => {
         leftRibbon.theme = {
           backgroundColor: "#c8e8de",
           borderHoverColor: "#4e635c",
           backgroundHoverColor: "#8ebdae",
         };
+        leftRibbon.setAttribute("position", "right");
+        rightRibbon.setAttribute("position", "left");
+        noticeText.style = "display: flex; color: darkgreen";
       }, 1000);
     </script>
   </body>
