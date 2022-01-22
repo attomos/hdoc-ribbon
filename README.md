@@ -8,7 +8,9 @@ new stuffs and re-learn many things
 Include this script in your HTML
 
 ```html
-<script src="https://unpkg.com/hdoc-ribbon@1.0.1/index.js"></script>
+<script src="https://unpkg.com/hdoc-ribbon@latest/index.js"></script>
+<!-- Or use specific tag -->
+<script src="https://unpkg.com/hdoc-ribbon@1.2.0/index.js"></script>
 ```
 
 And start using `<hdoc-ribbon>` element in your document:
@@ -80,5 +82,5 @@ Please checkout his work from the links below.
 
 1. Learn about https://unpkg.com/ which is CDN to serve files from npm packages
 2. Some CSS transforms to make the ribbon on the corner
-3. My ribbon is a bit different from @narze. I create custom HTML element, while his ribbon is CSS
+3. My ribbon is a bit different from @narze's. I create custom HTML element, while his ribbon is CSS
    magic (use the ribbon class and pass data to attr() function).
