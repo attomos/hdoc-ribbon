@@ -16,7 +16,7 @@ class Ribbon extends HTMLElement {
     style.textContent = `
       .wrapper {
         border: 2px solid #ababab;
-        background-color: #ffffff; ;;;
+        background-color: #ffffff;
         color: black;
         position: absolute;
         width: 20em;
