@@ -35,6 +35,34 @@ And start using `<hdoc-ribbon>` element in your document:
 | position  | string    | Where to put the ribbon either `left` or `right` |
 | href      | string    | The URL that points to your repo or whatever     |
 
+## Customization
+
+```html
+<hdoc-ribbon
+  data-day="11"
+  position="right"
+  href="https://github.com/attomos/100-days-of-code"
+></hdoc-ribbon>
+```
+
+```js
+const ribbon = document.querySelector("hdoc-ribbon");
+ribbon.theme = {
+  backgroundColor: "#c8e8de",
+  borderHoverColor: "#4e635c",
+  backgroundHoverColor: "#8ebdae",
+};
+```
+
+### Customizable Properties
+
+| Property                   | Data Type | Description                                    |
+| -------------------------- | --------- | ---------------------------------------------- |
+| theme.borderColor          | string    | Border color of the ribbon in normal state     |
+| theme.backgroundColor      | string    | Background color of the ribbon in normal state |
+| theme.borderHoverColor     | string    | Border color when the ribbon is hovered        |
+| theme.backgroundHoverColor | string    | Background color when the ribbon is hovered    |
+
 ## Inspirations
 
 I got this idea by looking at what @narze did in his day 5 and day 6 of #100DaysOfCode challenge.  
