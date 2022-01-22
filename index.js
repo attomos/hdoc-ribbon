@@ -8,8 +8,8 @@ class Ribbon extends HTMLElement {
     this._theme = {
       borderColor: "#ababab",
       backgroundColor: "#ffffff",
-      backgroundHoverColor: "#dacaff",
       borderHoverColor: "#29008a",
+      backgroundHoverColor: "#dacaff",
     };
 
     this.wrapper = document.createElement("a");
