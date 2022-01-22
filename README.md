@@ -72,7 +72,7 @@ ribbon.theme = {
 I got this idea by looking at what @narze did in his day 5 and day 6 of #100DaysOfCode challenge.  
 He created #100DaysOfCode CSS ribbon and published it to [npm](https://www.npmjs.com/package/hundred-days-of-code-css-ribbon).
 
-Please checkout his work from the links below.
+Please check out his work from the links below.
 
 - https://100daysofcode-narze.vercel.app/days/5/
 - https://100daysofcode-narze.vercel.app/days/6/
@@ -82,5 +82,6 @@ Please checkout his work from the links below.
 
 1. Learn about https://unpkg.com/ which is CDN to serve files from npm packages
 2. Some CSS transforms to make the ribbon on the corner
-3. My ribbon is a bit different from @narze's. I create custom HTML element, while his ribbon is CSS
-   magic (use the ribbon class and pass data to attr() function).
+3. My ribbon is a bit different from [@narze's](https://github.com/narze/100-days-of-code-ribbon). I
+   create custom HTML element, while his ribbon is CSS magic (use the ribbon class and pass data to
+   attr() function).
