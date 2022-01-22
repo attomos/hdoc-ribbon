@@ -4,9 +4,18 @@
   "description": "hdoc-ribbon is a custom HTML element I worked on as part of my #100DaysOfCode journey to learn new stuffs and re-learn many things",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "release": "semantic-release"
   },
   "keywords": [],
   "author": "Nattaphoom Chaipreecha",
-  "license": "MIT"
+  "license": "MIT",
+  "devDependencies": {
+    "semantic-release": "^19.0.2"
+  },
+  "release": {
+    "branches": [
+      "main"
+    ]
+  }
 }
