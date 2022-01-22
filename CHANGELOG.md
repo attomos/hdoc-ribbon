@@ -1,3 +1,10 @@
+## [1.1.1](https://github.com/attomos/hdoc-ribbon/compare/v1.1.0...v1.1.1) (2022-01-22)
+
+
+### Bug Fixes
+
+* re-order default theme object properties to match documentation ([f3c5009](https://github.com/attomos/hdoc-ribbon/commit/f3c50091060f2549c7394fbb8ddd96babce47f0d))
+
 # [1.1.0](https://github.com/attomos/hdoc-ribbon/compare/v1.0.2...v1.1.0) (2022-01-22)
 
 
