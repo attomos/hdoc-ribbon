@@ -4,6 +4,9 @@ name: Release
     branches:
       - main
       - next
+    paths-ignore:
+      - '**/README.md'
+
 jobs:
   release:
     name: release
