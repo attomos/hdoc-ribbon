@@ -29,11 +29,13 @@ And start using `<hdoc-ribbon>` element in your document:
 ></hdoc-ribbon>
 ```
 
-| Attribute | Data Type | Description                                      |
-| --------- | --------- | ------------------------------------------------ |
-| data-day  | string    | The day you're on the challenge, e.g. 1-100      |
-| position  | string    | Where to put the ribbon either `left` or `right` |
-| href      | string    | The URL that points to your repo or whatever     |
+| Attribute | Data Type | Description                                      | Observed Attribute\* |
+| --------- | --------- | ------------------------------------------------ | -------------------- |
+| data-day  | string    | The day you're on the challenge, e.g. 1-100      | false                |
+| position  | string    | Where to put the ribbon either `left` or `right` | true                 |
+| href      | string    | The URL that points to your repo or whatever     | false                |
+
+| Observed Attribute can be modified from JavaScript.
 
 ## Customization
 
