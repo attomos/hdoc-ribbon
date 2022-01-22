@@ -29,5 +29,29 @@
       position="left"
       href="https://github.com/attomos/100-days-of-code"
     ></hdoc-ribbon>
+
+    <h1 style="padding: 1rem">
+      Lorem, ipsum dolor sit amet consectetur adipisicing elit. Doloribus
+      architecto non corrupti velit, iusto quaerat, expedita est quia ipsum,
+      quibusdam repellat. Voluptate vitae dolore ipsa velit autem itaque nam
+      tenetur?
+    </h1>
+
+    <div style="display: flex">
+      <p style="margin: 0 auto; font-size: 2em; padding-top: 36px">
+        left ribbon will change style after 1 second
+      </p>
+    </div>
+
+    <script>
+      const leftRibbon = document.querySelector("hdoc-ribbon:nth-child(2)");
+      setTimeout(() => {
+        leftRibbon.theme = {
+          backgroundColor: "#c8e8de",
+          borderHoverColor: "#4e635c",
+          backgroundHoverColor: "#8ebdae",
+        };
+      }, 1000);
+    </script>
   </body>
 </html>
