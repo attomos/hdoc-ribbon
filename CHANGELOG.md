@@ -1,3 +1,10 @@
+# [1.3.0](https://github.com/attomos/hdoc-ribbon/compare/v1.2.0...v1.3.0) (2022-04-03)
+
+
+### Features
+
+* small production build ([18d43ea](https://github.com/attomos/hdoc-ribbon/commit/18d43eac61bec1e5ccdd08af5317da6941ffc6e7))
+
 # [1.2.0](https://github.com/attomos/hdoc-ribbon/compare/v1.1.1...v1.2.0) (2022-01-22)
 
 
