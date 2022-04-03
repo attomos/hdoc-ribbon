@@ -1,3 +1,10 @@
+## [1.3.2](https://github.com/attomos/hdoc-ribbon/compare/v1.3.1...v1.3.2) (2022-04-03)
+
+
+### Bug Fixes
+
+* add missing build step in release workflow ([3c85379](https://github.com/attomos/hdoc-ribbon/commit/3c853792d06b588b4b7accab98c8f4fd67c83466))
+
 ## [1.3.1](https://github.com/attomos/hdoc-ribbon/compare/v1.3.0...v1.3.1) (2022-04-03)
 
 
