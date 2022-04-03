@@ -9,7 +9,7 @@
   },
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
-    "build": "esbuild src/index.js --minify --outfile=hdoc-ribbon.min.js",
+    "build": "esbuild src/index.js --minify --sourcemap --outfile=hdoc-ribbon.min.js",
     "release": "semantic-release"
   },
   "keywords": [],
