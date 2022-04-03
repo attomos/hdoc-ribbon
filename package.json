@@ -5,6 +5,7 @@
   "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
+    "build": "esbuild src/index.js --minify --outfile=hdoc-ribbon.min.js",
     "release": "semantic-release"
   },
   "keywords": [],
@@ -17,6 +18,7 @@
     "@semantic-release/github": "^8.0.2",
     "@semantic-release/npm": "^9.0.0",
     "@semantic-release/release-notes-generator": "^10.0.3",
+    "esbuild": "^0.14.30",
     "semantic-release": "^19.0.2"
   }
 }
