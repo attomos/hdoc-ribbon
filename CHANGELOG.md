@@ -1,3 +1,10 @@
+## [1.3.1](https://github.com/attomos/hdoc-ribbon/compare/v1.3.0...v1.3.1) (2022-04-03)
+
+
+### Bug Fixes
+
+* remove minified file from repository and add sourcemap option ([34bbed0](https://github.com/attomos/hdoc-ribbon/commit/34bbed0335354097d4fa91b672c5fb8205b72d5f))
+
 # [1.3.0](https://github.com/attomos/hdoc-ribbon/compare/v1.2.0...v1.3.0) (2022-04-03)
 
 
